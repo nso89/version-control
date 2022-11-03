@@ -38,8 +38,8 @@ Copying C:\Users\nso89\Documents\Books\A Gentle Introduction to Python\0.0.1 to
 ```
 
 #### <a name="configuration"></a>Configuration
-If you need to change the source folder:
-1. Open the main.py script in any text editor.
+If you need to change the `source` folder:
+1. Open the `main.py` script in any text editor.
 2. Locate the `source` variable.
 
 **Example**:
