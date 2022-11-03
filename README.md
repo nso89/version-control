@@ -12,7 +12,7 @@ A quick and simple version control system
 
 **Example**:
 ```
-C:\Users\nso89\Documents\Books\A Gentle Introduction to Python\0.0.0\Book.odt
+C:\Users\nso89\Documents\Books\A Gentle Introduction to Python\0.0.1\Book.odt
 ```
 #### <a name="setup"></a>Setup
 1. Under your `USERPROFILE`, extract the `version-control.zip`
@@ -30,11 +30,11 @@ C:\Users\nso89>python main.py
 
 **Example**:
 ```
-Folder: Documents\Books\A Gentle Introduction to Python\0.0.0\Book.odt
+Folder: Documents\Books\A Gentle Introduction to Python\0.0.1\Book.odt
 Version #: 0.0.1
 
-Copying C:\Users\nso89\Documents\Books\A Gentle Introduction to Python\0.0.0 to 
-        C:\Users\nso89\Documents\Books\A Gentle Introduction to Python\0.0.1
+Copying C:\Users\nso89\Documents\Books\A Gentle Introduction to Python\0.0.1 to 
+        C:\Users\nso89\Documents\Books\A Gentle Introduction to Python\0.0.2
 ```
 
 #### <a name="configuration"></a>Configuration
