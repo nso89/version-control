@@ -31,7 +31,7 @@ def main():
         file_location_version = user_folder.parent.joinpath(version_number)
     
         print(f"Source: {user_folder}\nDestination: {file_location_version}")
-        shutil.copytree(src = user_folder, dst = file_location_version, dirs_exist_ok=False)
+        shutil.copytree(src = user_folder, dst = file_location_version, dirs_exist_ok = False)
     
     except (ValueError, PermissionError, NotADirectoryError, FileExistsError) as e:
         print(e)
