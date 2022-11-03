@@ -20,7 +20,13 @@ C:\Users\nso89\Documents\Books\A Gentle Introduction to Python\0.0.0\Book.odt
 #### <a name="running-the-script"></a>Running the Script
 1. Open `cmd.exe` and change the directory to the `version-control` folder.
 2. Start the `python main.py`.
-3. It asks you for the `folder` name and `version #`
+
+**Example**:
+```
+C:\Users\nso89>python main.py
+```
+
+4. It asks you for the `folder` name and `version #`
 
 **Example**:
 ```
