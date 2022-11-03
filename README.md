@@ -32,12 +32,12 @@ Copying C:\Users\nso89\Documents\Books\A Gentle Introduction to Python\0.0.0 to
 ```
 
 #### <a name="configuration"></a>Configuration
-If you need to change the `source` or `destination` folder:
-1. Open the `main.py` script in any text editor.
-2. Locate the `list of variable names` variables.
+If you need to change the source folder:
+1. Open the main.py script in any text editor.
+2. Locate the `source` variable.
 
 **Example**:
 ```python
-# Insert code sample here.
+source = Path.home()
 ```
-3. When you finish changing the variables, save and close the editor.
+3. When you finish changing the variable, save and close the editor.
