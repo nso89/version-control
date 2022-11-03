@@ -8,9 +8,10 @@ A quick and simple version control system
 * [Configuration](#configuration)
 
 #### <a name="prerequisites"></a>Prerequisites
-1. A completed install of `Language and version here`.
+1. A completed install of `Python 3.x`.
+2. The folder we want to copy.
 #### <a name="setup"></a>Setup
-1. Under your `USERPROFILE`, extract the `project_name_here.zip`
+1. Under your `USERPROFILE`, extract the `version-control.zip`
 #### <a name="running-the-script"></a>Running the Script
 1. Open `cmd.exe` and change the directory to the `project_name_here` folder.
 2. Start the `script-name.extension` goes here.
