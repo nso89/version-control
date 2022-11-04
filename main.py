@@ -7,11 +7,11 @@ def validate_parameters(validate: str, parameter: str) -> None:
     indicating the parameter cannot be blank.
     
     Args:
-    validate: str - the string we're checking.
-    parameter: str - what validate represents.
+        validate: str - the string we're checking.
+        parameter: str - what validate represents.
     
     Returns:
-    None
+        None
     """
     if not validate:
         raise ValueError(f"{parameter} cannot be blank!")
