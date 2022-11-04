@@ -31,7 +31,7 @@ C:\Users\nso89>python main.py
 **Example**:
 ```
 Folder: Documents\Books\A Gentle Introduction to Python\0.0.1\Book.odt
-Version #: 0.0.1
+Version #: 0.0.2
 
 Source: C:\Users\nso89\Documents\Books\A Gentle Introduction to Python\0.0.1
 Destination: C:\Users\nso89\Documents\Books\A Gentle Introduction to Python\0.0.2
