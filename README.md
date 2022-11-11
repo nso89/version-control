@@ -15,15 +15,20 @@ A quick and simple version control system
 C:\Users\nso89\Documents\Books\A Gentle Introduction to Python\0.0.1\Book.odt
 ```
 #### <a name="setup"></a>Setup
-1. Under your `USERPROFILE`, extract the `version-control.zip`
+1. Under your `USERPROFILE`, extract the `version-control-main.zip`
 
 #### <a name="running-the-script"></a>Running the Script
-1. Open `cmd.exe` and change the directory to the `version-control` folder.
+1. Open `cmd.exe` and change the directory to the `version-control-main` folder.
+
+**Example**:
+```batch
+C:\Users\nso89\>cd version-control-main
+```
 2. Start the `main.py` script.
 
 **Example**:
 ```
-C:\Users\nso89>python main.py
+C:\Users\nso89\version-control-main>python main.py
 ```
 
 4. It asks you for the `folder` name and `version #`
