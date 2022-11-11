@@ -27,7 +27,7 @@ C:\Users\nso89\>cd version-control-main
 2. Start the `main.py` script.
 
 **Example**:
-```
+```batch
 C:\Users\nso89\version-control-main>python main.py
 ```
 
