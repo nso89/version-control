@@ -1,6 +1,7 @@
 from pathlib import Path
 import shutil
 
+
 def validate_parameters(validate: str, parameter: str) -> None:
     """
     Verify if validate is blank, if so, raise ValueError 
@@ -16,6 +17,7 @@ def validate_parameters(validate: str, parameter: str) -> None:
     if not validate:
         raise ValueError(f"{parameter} cannot be blank!")
 
+        
 def main():
 
     try:
