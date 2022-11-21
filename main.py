@@ -2,6 +2,9 @@ from pathlib import Path
 import shutil
 
 
+SOURCE = Path.home()
+
+
 def validate_parameters(validate: str, parameter: str) -> None:
     """
     Verify if validate is blank, if so, raise ValueError 
@@ -22,14 +25,13 @@ def main():
 
     try:
     
-        source = Path.home()
         file = input("Folder: ")
         version_number = input("Version #: ")
     
         validate_parameters(validate = file, parameter = "File Name")
         validate_parameters(validate = version_number, parameter = "Version Number")
 
-        user_folder = source.joinpath(file)
+        user_folder = SOURCE.joinpath(file)
         file_location_version = user_folder.parent.joinpath(version_number)
     
         print(f"Source: {user_folder}\nDestination: {file_location_version}")
