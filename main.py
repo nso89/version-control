@@ -27,7 +27,10 @@ def main():
     
         file = input("Folder: ")
         version_number = input("Version #: ")
-    
+        
+        file = file.strip()
+        version_number = version_number.strip()
+        
         validate_parameters(validate = file, parameter = "File Name")
         validate_parameters(validate = version_number, parameter = "Version Number")
 
